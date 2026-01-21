@@ -131,3 +131,10 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 }
+
+
+configurations.all {
+    resolutionStrategy {
+        force("org.jetbrains.kotlin-wrappers:kotlin-nodejs:20.0.0")
+    }
+}

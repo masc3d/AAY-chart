@@ -17,6 +17,6 @@ plugins {
 
 configurations.all {
     resolutionStrategy {
-        force("org.jetbrains.kotlin-wrappers:kotlin-nodejs:18.0.0")
+        force("org.jetbrains.kotlin-wrappers:kotlin-nodejs:20.0.0")
     }
 }

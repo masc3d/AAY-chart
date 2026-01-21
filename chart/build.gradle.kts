@@ -14,6 +14,7 @@ plugins {
 group = "io.github.thechance101"
 version = "1.1.0"
 
+
 kotlin {
     androidTarget {
         publishLibraryVariants("release")

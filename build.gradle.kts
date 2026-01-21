@@ -14,3 +14,9 @@ plugins {
     id("com.android.library") apply false
     id("org.jetbrains.compose") apply false
 }
+
+configurations.all {
+    resolutionStrategy {
+        force("org.jetbrains.kotlin-wrappers:kotlin-nodejs:18.0.0")
+    }
+}

@@ -14,7 +14,6 @@ plugins {
 group = "io.github.thechance101"
 version = "1.1.0"
 
-
 kotlin {
     androidTarget {
         publishLibraryVariants("release")
@@ -129,12 +128,5 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
-    }
-}
-
-
-configurations.all {
-    resolutionStrategy {
-        force("org.jetbrains.kotlin-wrappers:kotlin-nodejs:20.0.0")
     }
 }
